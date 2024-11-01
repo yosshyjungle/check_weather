@@ -9,7 +9,7 @@ import { MapStats } from './components/Map/Map';
 import Arrow from './components/icons/arrow';
 
 function App() {
-    const [city, setCity] = useState<string[]>(['Warsaw', 'Poland']);
+    const [city, setCity] = useState<string[]>(['Mitaka', 'Japan']);
     const [inputvalue, SetInputvalue] = useState<string>(city[0]);
     const [weather, setWeather] = useState<CurrentWeather>();
     const [isLoading, setIsLoading] = useState<boolean>(true);
